@@ -55,6 +55,10 @@
 .social-icons {
     display: flex;
     flex-direction: column;
+    a {
+        margin: 0.2rem;
+        @include transition-ease;
+    }
 }
 
 footer {
