@@ -1,6 +1,7 @@
 @import "./config";
 @import "./home";
 @import "./menu";
+@import "./about";
 
 
 body {
@@ -41,10 +42,15 @@ main {
             @include transition-ease;
 
             &:hover {
-                color: $accent-color;
+                color: $secondary-color;
             }
         }
     }
+}
+
+
+.text-secondary {
+    color: $secondary-color;
 }
 
 footer {
